@@ -45,16 +45,6 @@
 
 🔹 Standard API Response Format
 
-🔹Every endpoint returns a structured JSON response:
-
-{
-  "status": 200,
-  "success": true,
-  "message": "User created successfully",
-  "data": {},
-  "timestamp": "2025-01-01T12:00:00"
-}
-
 🔹 DTO Validation
 
 🔹Uses Jakarta Validation (@NotBlank, @Email, @Size) with automatic error handling.
