@@ -1,6 +1,6 @@
-Spring Boot – API Versioning, Global Exception Handling & File Upload/Download
+# Spring Boot – API Versioning, Global Exception Handling & File Upload/Download
 
-This project demonstrates professional Spring Boot backend best practices, including:
+## This project demonstrates professional Spring Boot backend best practices, including:
 
 ✅ API Versioning (v1/v2)
 
@@ -71,20 +71,6 @@ File download by filename
 
 Implemented with MultipartFile and local storage.
 
-📁 Project Structure
-src/main/java/com/rehancode/phase5concepts
-│
-├── controller/
-├── service/
-├── dto/
-├── entity/
-├── exception/
-│   ├── BadRequestException.java
-│   ├── GlobalExceptionHandler.java
-│
-├── response/ApiResponse.java
-└── file/FileService.java
-
 🛠️ Tech Stack
 
 Java 17+
@@ -108,5 +94,3 @@ File APIs
 POST /file/upload
 POST /file/uploadMultiple
 GET  /file/download/{filename}
-
-
