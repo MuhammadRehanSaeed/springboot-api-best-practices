@@ -21,13 +21,13 @@
 🚀 Features
 🔹 API Versioning
 
-Supports multiple API versions:
+🔹Supports multiple API versions:
 
-/api/v1/users
-/api/v2/users
+🔹/api/v1/users
+🔹/api/v2/users
 
 
-Each version uses different DTOs and response structures.
+🔹Each version uses different DTOs and response structures.
 
 🔹 Global Exception Handling
 
@@ -45,7 +45,7 @@ Each version uses different DTOs and response structures.
 
 🔹 Standard API Response Format
 
-Every endpoint returns a structured JSON response:
+🔹Every endpoint returns a structured JSON response:
 
 {
   "status": 200,
@@ -57,7 +57,7 @@ Every endpoint returns a structured JSON response:
 
 🔹 DTO Validation
 
-Uses Jakarta Validation (@NotBlank, @Email, @Size) with automatic error handling.
+🔹Uses Jakarta Validation (@NotBlank, @Email, @Size) with automatic error handling.
 
 🔹 File Upload & Download
 
@@ -73,24 +73,24 @@ Supports:
 
 🛠️ Tech Stack
 
-Java 17+
+🔹Java 17+
 
-Spring Boot 3
+🔹Spring Boot 3
 
-Maven
+🔹Maven
 
-Lombok
+🔹Lombok
 
-Jakarta Validation
+🔹Jakarta Validation
 
 
 📌 API Endpoints
 User APIs
-POST /api/v1/users
-GET  /api/v1/users/{id}
-POST /api/v2/users
+🔹POST /api/v1/users
+🔹GET  /api/v1/users/{id}
+🔹POST /api/v2/users
 
 File APIs
-POST /file/upload
-POST /file/uploadMultiple
-GET  /file/download/{filename}
+🔹POST /file/upload
+🔹POST /file/uploadMultiple
+🔹GET  /file/download/{filename}
