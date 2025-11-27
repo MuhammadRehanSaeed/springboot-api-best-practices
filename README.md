@@ -31,17 +31,17 @@ Each version uses different DTOs and response structures.
 
 🔹 Global Exception Handling
 
-Centralized exception handling using @RestControllerAdvice:
+🔹Centralized exception handling using @RestControllerAdvice:
 
-BadRequestException
+🔹BadRequestException
 
-NotFoundException
+🔹NotFoundException
 
-Validation errors
+🔹Validation errors
 
-Generic exceptions
+🔹Generic exceptions
 
-Returns consistent error JSON using ApiResponse<T>.
+🔹Returns consistent error JSON using ApiResponse<T>.
 
 🔹 Standard API Response Format
 
@@ -63,13 +63,13 @@ Uses Jakarta Validation (@NotBlank, @Email, @Size) with automatic error handling
 
 Supports:
 
-Single file upload
+🔹Single file upload
 
-Multiple file upload
+🔹Multiple file upload
 
-File download by filename
+🔹File download by filename
 
-Implemented with MultipartFile and local storage.
+🔹Implemented with MultipartFile and local storage.
 
 🛠️ Tech Stack
 
